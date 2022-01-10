@@ -1,0 +1,14 @@
+{
+  "name": "all-bot-function",
+  "version": "1.0.0",
+  "description": "Send a message and mention everyone in your GroupMe Group.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "zip -r function.zip . && aws lambda update-function-code --function-name all-bot-function --zip-file fileb://function.zip"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
