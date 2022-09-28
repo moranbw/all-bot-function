@@ -1,0 +1,9 @@
+name = "all-bot-function"
+main = "src/index.js"
+compatibility_date = "2022-09-28"
+
+
+# The necessary secrets are:
+# - GROUP_ID
+# - BOT_ID
+# - TOKEN
